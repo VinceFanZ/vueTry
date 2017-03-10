@@ -18,8 +18,6 @@ app.use(webpackDevMiddleware(compiler, {
 
 app.use(webpackHotMiddleware(compiler))
 
-app.use(express.static(__dirname + '/src'))
-
 app.listen(3000, () => {
   console.log('Listening on port 3000!')
 })
