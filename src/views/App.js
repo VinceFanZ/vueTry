@@ -1,6 +1,6 @@
-import Vue from 'vue'
 
 export default {
+  name: 'todos',
   data () {
     return {
       ms: 'Vue'
@@ -56,6 +56,7 @@ export default {
             </button>
           </footer>
         </section>
+        <router-link to='page'>to page</router-link>
       </div>
      )
    }
